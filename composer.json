@@ -1,0 +1,19 @@
+{
+    "name": "heerab/lms",
+    "description": "lms package for heerab CMS",
+    "autoload": {
+        "psr-4": {
+            "Heerab\\Lms\\": "src/"
+        }
+    },
+    "type": "project",
+    "require": {
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Heerab\\Lms\\BaseServiceProvider"
+            ]
+        }
+    }
+}
